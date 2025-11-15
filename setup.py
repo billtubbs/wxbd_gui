@@ -13,8 +13,11 @@ setuptools.setup(
     #long_description=long_description,
     #long_description_content_type="text/markdown",
     install_requires=[
+          'wxPython',  \
           'py_block_diagram',  \
           'krauss_misc', \
+          'numpy', \
+          'matplotlib', \
     ],
     packages=setuptools.find_packages(),
     classifiers=[
